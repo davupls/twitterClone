@@ -1,0 +1,89 @@
+/* 
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --darkGray: #23272a;
+    --lightGray: #2c2f33;
+    /* Discord Color pallet  */
+    --color-1:	#7289da;	
+    --color-2:	#ffffff;	
+    --color-3:	#99aab5;	
+    --color-4:	#2c2f33;	
+    --color-5:	#23272a;
+}
+
+body{  
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+.focus{ 
+    background-color: #23272a;
+    width: 70vw;
+}
+section{
+    background-color: var(--lightGray);
+}
+
+
+/* Top Pin  */
+.top-pin{
+    margin-bottom: 20px;
+}
+
+.title{
+    border-bottom: 1px solid var(--darkGray);
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.title h1 {
+    color: #99aab5;
+}
+.post-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid var(--darkGray);
+    height: 60px;
+}
+
+.user-icon{
+    height: 40px;
+    width: 40px;
+    margin: 20px 15px  20px 0;
+}
+
+.content{
+    height: 40px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.btn-post{
+    height: 40px;
+    width: 40px;
+}
+
+.posted p{
+    color: #ffffff;
+    border-bottom: 2.5px solid var(--darkGray);
+    font-size: 16px;
+    padding: 10px 15px;
+    /* margin-bottom: 15px; */
+    line-height: 1.8;
+}
+
+.posted p:hover{
+    background-color: var(--darkGray);
+    transition: 0.5s;
+}
